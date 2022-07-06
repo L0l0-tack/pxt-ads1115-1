@@ -1,7 +1,7 @@
 # MakeCode Package for the ADS1115
 
 This library provides a Microsoft Makecode package for the ADS1115.
-See **https://joy-it.net/en/products/COM-KY053ADC** for more details.
+See **https://joy-it.net/products/COM-KY053ADC** for more details.
 
 ## Behaviour considered to be a pass
 As long as the raw value and voltages still change depending on what is/will be connected. This is considered a pass, even the small jitter of up to +/- 10 in the raw value is an indicator of a pass.

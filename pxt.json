@@ -1,0 +1,28 @@
+{
+    "name": "pxt-ads1115",
+    "version": "1.0.0",
+    "description": "MakeCode package for ADS1115",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "ads1115.ts",
+        "_locales/de/pxt-ads1115-strings.json",
+        "_locales/de/pxt-ads1115-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.6",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}

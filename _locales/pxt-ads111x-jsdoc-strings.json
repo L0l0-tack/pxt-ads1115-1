@@ -1,0 +1,13 @@
+{
+  "ADS1115": "ADS1115 16-Bit ADC block",
+  "ADS1115.initADS1115": "Changing the I2C address based on user input",
+  "ADS1115.raw_to_v": "Reads any raw value (raw) either from the previously specified channel or from any other variable and converts it to voltages",
+  "ADS1115.read": "Reads the specified channel of the ADS1115",
+  "ADS1115.setGain": "Change the gains based on the user input",
+  "ADS1115.setMode": "Change the mode based on user input",
+  "ADS1115.setRate": "Change the sample rate based on user input",
+  "gain": "Enumeration of gains",
+  "mode": "Enumeration of modes",
+  "rate": "Enumeration of sample rates",
+  "userInI2C": "Enumeration of the I2C addresses"
+}

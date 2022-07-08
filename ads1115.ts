@@ -65,7 +65,7 @@ enum mode {
 /**
   * ADS1115 16-Bit ADC block
   */
-//% color="#275C6B" weight=100 icon="\uf109" block="ADS1115"
+//% color="#275C6B" weight=100 icon="\uf0e7" block="ADS1115"
 namespace ADS1115 {
     // Register variables
     const _REGISTER_MASK = 0x03

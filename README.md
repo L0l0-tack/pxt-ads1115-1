@@ -85,12 +85,19 @@ serial.writeString("" + (ADS1115.raw_to_v(ADS1115.read(0))))
 serial.writeLine(" V")
 ```
 
-## Read reference Value
-The block `Read the reference Value` makes a single measurement on channel 0 with a sample rate of 128 sps and a user defined gain.
-To fully use the block, it must write to the serial monitor.
+## Read raw values from multiple channels
+To read the raw values from each channel, you can use the `Read from channel (...) to (...)` block, which returns the raw values of the specified channels.
 ```typescript
-// Reads the reference value on channel 0
-serial.writeString("" + (ADS1115.read_rev()))
+// Choosing which channels should be read
+// start min = 0 | start max = 4
+// end min = 0 | end max = 4
+// Reads the specified channels (start, end) based on the specified parameters (0 to 4)
+    readMulti = ADS1115.readMulti(0, 4)
+    serial.writeLine("" + (readMulti[0]))
+    serial.writeLine("" + (readMulti[1]))
+    serial.writeLine("" + (readMulti[2]))
+    serial.writeLine("" + (readMulti[3]))
+    serial.writeLine("---------")
 ```
 
 ## Supported targets

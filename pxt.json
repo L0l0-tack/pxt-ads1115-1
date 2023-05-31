@@ -1,6 +1,6 @@
 {
     "name": "pxt-ads1115",
-    "version": "1.2.0",
+    "version": "1.1.1",
     "description": "MakeCode package for ADS1115",
     "license": "MIT",
     "dependencies": {

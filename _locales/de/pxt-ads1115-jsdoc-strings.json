@@ -3,6 +3,7 @@
     "ADS1115.initADS1115": "Aendern der I2C-Adresse basierend auf Benutzereingaben",
     "ADS1115.raw_to_v": "Liest einen beliebigen Rohwert (raw) entweder aus dem zuvor angegebenen Kanal oder aus einer beliebigen anderen Variablen und wandelt ihn in Spannungen um",
     "ADS1115.read": "Liest den angegebenen Kanal des ADS1115",
+    "ADS1115.readMulti": "Liest die angegebenen Kanaele des ADS1115",
     "ADS1115.setGain": "Aendern Sie die Gains basierend auf Benutzereingaben",
     "ADS1115.setMode": "Aendern Sie den Modus basierend auf Benutzereingaben",
     "ADS1115.setRate": "Aendern Sie die Abtastrate basierend auf Benutzereingaben",

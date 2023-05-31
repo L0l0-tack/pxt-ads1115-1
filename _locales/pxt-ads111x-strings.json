@@ -2,6 +2,7 @@
   "ADS1115.initADS1115|block": "Initialize ADS1115 with address %userInI2C",
   "ADS1115.raw_to_v|block": "%raw value to voltage",
   "ADS1115.read|block": "Read on channel %chan",
+  "ADS1115.readMulti|block": "Read from channel %start to %end",
   "ADS1115.setGain|block": "Set the gain to %gain",
   "ADS1115.setMode|block": "Set the mode to %mode",
   "ADS1115.setRate|block": "Set the sample rate to %rate",

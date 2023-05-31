@@ -3,6 +3,7 @@
   "ADS1115.initADS1115": "Changing the I2C address based on user input",
   "ADS1115.raw_to_v": "Reads any raw value (raw) either from the previously specified channel or from any other variable and converts it to voltages",
   "ADS1115.read": "Reads the specified channel of the ADS1115",
+  "ADS1115.readMulti": "Reads the specified channels of the ADS1115",
   "ADS1115.setGain": "Change the gains based on the user input",
   "ADS1115.setMode": "Change the mode based on user input",
   "ADS1115.setRate": "Change the sample rate based on user input",
